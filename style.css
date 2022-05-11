@@ -1,16 +1,15 @@
-body {
+    body {
     background-color: #1D3557;
    }
-h1 {
+    h1 {
     color: #E63946;
+   }
+   .non-sporting{
+    background-color: #45789D; 
    }
    ul {
     list-style-type: none;
     color: #a7dadc;
-   }
-   #Pointer{
-    color: #1D3557;
-    background-color: #F1FAEE;
    }
    ul li::before {
     content: "\2022";
@@ -20,7 +19,8 @@ h1 {
     width: 1em;
     margin-left: -2em;
    }
-ol {
+    ol 
+    {
     color: #F1FAEE;
    }
 
