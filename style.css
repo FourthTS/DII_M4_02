@@ -8,6 +8,10 @@ h1 {
     list-style-type: none;
     color: #a7dadc;
    }
+   #Pointer{
+    color: #1D3557;
+    background-color: #F1FAEE;
+   }
    ul li::before {
     content: "\2022";
     color: #E63946;
