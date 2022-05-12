@@ -1,32 +1,41 @@
-    body {
-    background-color: #1D3557;
-   }
+.xxxxxxx {
+	color : #FCBB6C;
+	color : #d8737f;
+	color : #ab6c82;
+	color : #685d79;
+	color : #475c7a;
+  }
+	body {
+    background-color: #475c7a;
+   	}
     h1 {
-    color: #E63946;
-   }
-   .non-sporting{
-    background-color: #45789D; 
-   }
-   ul>li:nth-child(1){
-       color: #E63946;
-   }
-   ul>li:nth-child(odd) {
-    color: #E63946;
-   }
-   ul {
-    list-style-type: none;
-    color: #a7dadc;
-   }
-   ul li::before {
+    color: #fcbb6d;
+	background-color: #685d79;
+   	}
+	ul{
+		list-style-type: none;
+	}
+   	ul li::before {
     content: "\2022";
-    color: #E63946;
+    color: #fcbb6d;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -2em;
-   }
-    ol 
+   	}
+	ol{
+		background-color: #d8737f;
+	}
+	ol>li:nth-child(odd){
+		background-color: #ab6c82;
+	}
+	ol>li:nth-child(even)
+	{
+		background-color: #685d79;	
+	}
+	ol 
     {
     color: #F1FAEE;
-   }
+	font-weight: bold;
+   	}
 
