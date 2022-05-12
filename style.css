@@ -7,6 +7,12 @@
    .non-sporting{
     background-color: #45789D; 
    }
+   ul>li:nth-child(1){
+       color: #E63946;
+   }
+   ul>li:nth-child(odd) {
+    color: #E63946;
+   }
    ul {
     list-style-type: none;
     color: #a7dadc;
